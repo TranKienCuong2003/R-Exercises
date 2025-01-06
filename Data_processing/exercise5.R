@@ -1,0 +1,5 @@
+v <- c(12, 15, 14, 10, 18)
+mean_v <- mean(v)
+median_v <- median(v)
+print(mean_v)
+print(median_v)
