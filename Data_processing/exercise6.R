@@ -1,0 +1,6 @@
+names <- c("An", "Binh", "Cuong")
+ages <- c(20, 21, 19)
+scores <- c(85, 90, 88)
+df <- data.frame(Name = names, Age = ages, Score = scores)
+df$Grade <- c("B", "A", "B")
+print(df)
